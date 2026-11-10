@@ -230,7 +230,7 @@ def render(rep):
         % (a["n"], f"{a['credit']:,.0f}", a["pct"], a["median"]))
     r = rep["runs"]
     if r and r["total"]:
-        add("  → 这些运行里 %d/%d 次（%.0f%%）产出为零" % (r["zero_output"], r["total"], r["ratio"] * 100))
+        add("  → 历史累计 %d/%d 次（%.0f%%）产出为零" % (r["zero_output"], r["total"], r["ratio"] * 100))
     add("")
     add("【最贵的会话】")
     for s in rep["top"]:

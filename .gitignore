@@ -1,0 +1,9 @@
+# 本机私密数据（绝对积分、内部地址、项目名），不入库
+references/local-evidence.md
+
+__pycache__/
+*.pyc
+*.zip
+dist/
+.DS_Store
+Thumbs.db
